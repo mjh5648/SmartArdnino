@@ -144,7 +144,7 @@ public class RemoteMonitor extends BaseView implements View.OnClickListener {
                     System.out.println(mStrH);
                     System.out.println(mStrT);
                     mHandler.sendEmptyMessage(0);
-                }
+                 }
 
             } catch (Exception e) {
                 e.printStackTrace();
