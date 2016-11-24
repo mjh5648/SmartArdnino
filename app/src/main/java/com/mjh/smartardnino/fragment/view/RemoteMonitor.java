@@ -100,6 +100,8 @@ public class RemoteMonitor extends BaseView implements View.OnClickListener {
                 break;
             case R.id.btn_remote_monitor_off:
                 stopMoniror();
+                tv_remote_humidity.setText("");
+                tv_remote_temperature.setText("");
                 btn_remote_monitor_on.setEnabled(true);
                 btn_remote_monitor_off.setEnabled(false);
                 tv_remote_monitor_devices.setText("当前连接：");
